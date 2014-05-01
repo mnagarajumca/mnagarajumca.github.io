@@ -1,0 +1,147 @@
+@col1:#666;
+@col2:#fff;
+@col3:#333;
+.pad(@pad){
+padding:@pad;
+}
+.mar(@mar){
+margin:@mar;
+}
+.bradius(@radius){
+border-radius:@radius;
+-webkit-border-radius:@radius;
+-moz-border-radius:@radius;
+-o-border-radius:@radius;
+-ms-border-radius:@radius;
+}
+ /*.row{
+        overflow: hidden; 
+    }*/
+
+.menu-cont{
+.pad(0.625em);
+.bradius(10px);
+}
+
+.card{
+
+.pad(0.625em);
+.mar(0.625em 0.625em 0 0.625em);
+background-color:@col2;
+ /*margin-bottom: -99999px;
+    padding-bottom: 99999px;*/
+}
+.trans{
+transform:scale(1.5);
+-webkit-transform:scale(1.5);
+}
+img{
+max-width:100%;
+}
+/*easy pie chart*/
+.chart {
+  position: relative;
+  text-align: center;
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+  img.media-object{
+  width:4em;
+  height:4em;
+  }
+
+	.delay1{
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	}
+	.delay2{
+	-webkit-animation-delay:1s;
+	animation-delay:1s;
+	}
+	.delay3{
+	-webkit-animation-delay:1.5s;
+	animation-delay:1.5s;
+	}
+	.delay4{
+	-webkit-animation-delay:2s;
+	animation-delay:2s;
+	}
+.panel-body {
+padding: 5px;
+}
+
+.progress.vertical {
+float: left;
+width: 12px;
+height: 100%;
+margin-right: 15%;
+}
+.progress.vertical .progress-bar {
+width: 100%;
+}
+.progress {
+position:relative;
+}
+.progress-bar.right{
+position:absolute;
+right:0;
+}
+/* modal*/
+.modal-dialog-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.modal-body {
+    overflow-y: auto;
+}
+.modal-footer {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .modal-dialog-center {
+    width: 100%;
+  }
+}
+/* Modal*/
+/* Mega menu */
+.aash .nav,
+.aash .collapse,
+.aash .dropup,
+.aash .dropdown {
+  position: static;
+}
+.aash .container {
+  position: relative;
+}
+.aash .dropdown-menu {
+  left: auto;
+}
+.aash .nav.navbar-right .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.aash .aash-content {
+  .pad(10px);
+}
+.aash .dropdown.aash-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+/* Mega Menu */
+/* Right Settings*/
+ #right_set
+    {
+     position:fixed;
+     top:15%;
+     right:10px;  
+    }
+/* Right Settings*/
+
