@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Armata-Regular-webfont";
+	src: url('../fonts/Armata-Regular-webfont.eot');
+	src: url('../fonts/Armata-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Armata-Regular-webfont.woff') format('woff'), url('../fonts/Armata-Regular-webfont.ttf') format("truetype"), url('../fonts/Armata-Regular-webfont.svg#Armata-Regular-webfont') format('svg');
+}
+body {
+	font-family: Armata-Regular-webfont;
+}
+.navbar {
+	margin-top: 0.625em;
+}
+.navbar-brand {
+	padding: 1px 15px;
+}
+label.error {
+	font-weight: normal;
+}
