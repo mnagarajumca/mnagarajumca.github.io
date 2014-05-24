@@ -15,3 +15,54 @@ body {
 label.error {
 	font-weight: normal;
 }
+.carousel-caption {
+		background:#6C3;
+position: relative;
+left: 0;
+right: 0;
+bottom: 20px;
+z-index: 10;
+padding-top: 0;
+padding-bottom: 20px;
+color: #333;
+text-align: left;
+}
+.carousel-indicators {
+position: absolute;
+bottom: 10px;
+left: 85%;
+right: 0;
+z-index: 15;
+}
+.carousel-indicators .active {
+margin: 0;
+width: 12px;
+height: 12px;
+background-color: #000;
+}
+.carousel-indicators li{
+border:none;	
+background-color: #fff;
+}
+.list-unstyled .list-unstyled{
+padding-left:1.5em;	
+}
+/*
+.carousel-caption {
+	background:#6C3;
+position: relative;
+left: 0;
+right: 0;
+bottom: 20px;
+z-index: 10;
+padding-top: 0;
+padding-bottom: 0;
+color: #fff;
+text-align: left;
+}
+*/
+@media(min-width:767px){
+.desk_right{
+float:right;	
+}	
+}
