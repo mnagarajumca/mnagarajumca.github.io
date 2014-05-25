@@ -14,7 +14,15 @@ body {
 }
 label.error {
 	font-weight: normal;
+width: 100%;
+padding-top: 0.5em;
+text-align: right;
 }
+/*label.error:after{
+clear:both;
+content: " ";
+display: table;	
+}*/
 .carousel-caption {
 		background:#6C3;
 position: relative;
@@ -61,8 +69,16 @@ color: #fff;
 text-align: left;
 }
 */
-@media(min-width:767px){
+@media(min-width:768px){
 .desk_right{
 float:right;	
+}	
+}
+@media(max-width:767px){
+.btn-block_mob {
+ display: block; 
+ width: 100%; 
+ padding-left: 0;
+padding-right: 0; 
 }	
 }
