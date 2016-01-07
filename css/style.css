@@ -1,0 +1,58 @@
+/* Scss Document */
+.headerfont {
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  font-weight: bold;
+  color: #C3E0E6 !important;
+  text-shadow: 3px 3px 1px #5087A5; }
+
+html, body {
+  overflow-x: hidden; }
+
+body {
+  color: #666;
+  position: relative; }
+
+header ul li {
+  text-transform: uppercase; }
+
+#home > div {
+  padding-top: 20px; }
+  #home > div img {
+    max-height: 400px; }
+
+main section {
+  padding-top: 50px; }
+
+
+  #home div.row {
+    display: table;    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+   #home div.row > div{display: table-cell;float: none;
+    height: 100%;
+    vertical-align: middle; }
+  #home h3, #about h3 {
+    line-height: 50px; }
+    #home h3:first-child, #about h3:first-child {
+      margin-top: 0; }
+
+.progress {
+  height: 11px;
+  margin-bottom: 10px; }
+
+.progress-bar {
+  font-size: 10px;
+  line-height: 11px; }
+
+#map {
+  width: 100%;
+  height: 400px; }
+  
+  #portfolio img{max-height:250px;}
+  footer{height:50px;background:#e7e7e7;margin-top:20px;}
+  footer p{color:#555;    margin: 0;
+    line-height: 50px;}
+
+/*# sourceMappingURL=style.css.map */
