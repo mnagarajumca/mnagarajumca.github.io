@@ -54,5 +54,8 @@ main section {
   footer{height:50px;background:#e7e7e7;margin-top:20px;}
   footer p{color:#555;    margin: 0;
     line-height: 50px;}
-
+.navbar-brand{    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px gold;}
 /*# sourceMappingURL=style.css.map */
