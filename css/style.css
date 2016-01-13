@@ -61,11 +61,7 @@ main section {
 100%{transform:skew(0deg,0deg);}
 }
 
-.headerfont{
-	animation:bganim 2s linear 0s infinite alternate;
-	-webkit-animation:bganim 2s linear 0s infinite alternate;
-		
-}
+
 .img-thumbnail{
 	-webkit-transition:background-color 1s linear 0s;
 }
@@ -74,6 +70,11 @@ main section {
 }
 body{overflow:hidden;}
 @media (min-width:768px){
+.headerfont{
+	animation:bganim 2s linear 0s infinite alternate;
+	-webkit-animation:bganim 2s linear 0s infinite alternate;
+		
+}
  #home div.row {
     display: table;    table-layout: fixed;
     height: 100%;
@@ -82,5 +83,12 @@ body{overflow:hidden;}
    #home div.row > div{display: table-cell;float: none;
     height: 100%;
     vertical-align: middle; }
+}
+@media (max-width:767px){
+.headerfont {
+    font-size: 40px;text-align: center;
+}
+.headerfont + h1{font-size: 24px;
+    text-align: center;}
 }
 /*# sourceMappingURL=style.css.map */
