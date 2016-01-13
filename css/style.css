@@ -25,14 +25,7 @@ main section {
   padding-top: 50px; }
 
 
-  #home div.row {
-    display: table;    table-layout: fixed;
-    height: 100%;
-    width: 100%;
-  }
-   #home div.row > div{display: table-cell;float: none;
-    height: 100%;
-    vertical-align: middle; }
+ 
   #home h3, #about h3 {
     line-height: 50px; }
     #home h3:first-child, #about h3:first-child {
@@ -59,4 +52,35 @@ main section {
     font-weight: bold;
     text-shadow: 2px 2px gold;}
 .timeline-left .timeline-duration,.timeline-inverted .timeline-duration{background:#fff;}
+@-webkit-keyframes bganim{
+0%{-webkit-transform:skew(25deg,0deg);}
+100%{-webkit-transform:skew(0deg,0deg);}
+}
+@keyframes bganim{
+0%{transform:skew(25deg,0deg);}
+100%{transform:skew(0deg,0deg);}
+}
+
+.headerfont{
+	animation:bganim 2s linear 0s infinite alternate;
+	-webkit-animation:bganim 2s linear 0s infinite alternate;
+		
+}
+.img-thumbnail{
+	-webkit-transition:background-color 1s linear 0s;
+}
+.img-thumbnail:hover{
+	background-color:gold;
+}
+body{overflow:hidden;}
+@media (min-width:768px){
+ #home div.row {
+    display: table;    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+   #home div.row > div{display: table-cell;float: none;
+    height: 100%;
+    vertical-align: middle; }
+}
 /*# sourceMappingURL=style.css.map */
