@@ -69,6 +69,32 @@ main section {
 	background-color:gold;
 }
 body{overflow:hidden;}
+body #jet {
+    position: fixed;
+    bottom: 7%;
+    right: 7%;
+    opacity: 0.6;
+}
+@keyframes top {
+  from {
+    bottom: 10%;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+@-webkit-keyframes top {
+  from {
+    bottom: 10%;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+body .jet {
+  animation: top 0.5s ease-in 0s 1 normal;
+  -webkit-animation: top 0.5s ease-in 0s 1 normal;
+}
 @media (min-width:768px){
 .headerfont{
 	animation:bganim 2s linear 0s infinite alternate;

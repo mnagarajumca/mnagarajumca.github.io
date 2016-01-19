@@ -1,12 +1,13 @@
 $(function() {
-   /* function viewheight() {
-        var vheight = $(window).innerHeight();
-        $('#home,#about').css('min-height', vheight + 'px');
-    }
-    viewheight();
-    $(window).resize(function() {
-        viewheight();
-    });*/
+   $(".navbar-nav li,#scroll_up").click(function(e) {
+		e.preventDefault();
+		 $('html, body').animate({
+				scrollTop: $($(this).children("a").attr("href")).offset().top
+		 },500);
+	 });
+$("img[src*='jet']").click(function() {
+  $("#jet").addClass("jet");
+});
 	 $('.txteffect').textillate({in: {    effect: 'zoomInDown' } });
 	
     $("#top-navigation a").on('click', function(event) {
