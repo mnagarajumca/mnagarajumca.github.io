@@ -7,6 +7,9 @@ $(function() {
 	 });
 $("img[src*='jet']").click(function() {
   $("#jet").addClass("jet");
+  //setTimeout(function(){
+  //$("#jet").removeClass("jet");
+  //},2000);
 });
 	 $('.txteffect').textillate({in: {    effect: 'zoomInDown' } });
 	
