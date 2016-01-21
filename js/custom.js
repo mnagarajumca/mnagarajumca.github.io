@@ -1,4 +1,37 @@
 $(function() {
+	    var todat = new Date();
+    var todate = todat.getDate();
+    var month = new Array();
+    month[0] = "January";
+    month[1] = "February";
+    month[2] = "March";
+    month[3] = "April";
+    month[4] = "May";
+    month[5] = "June";
+    month[6] = "July";
+    month[7] = "August";
+    month[8] = "September";
+    month[9] = "October";
+    month[10] = "November";
+    month[11] = "December";
+    var datMonth = month[todat.getMonth()];
+    var datYear = todat.getFullYear().toString().substr(2, 2);
+    var monthStart = new Date(todat.getFullYear(), todat.getMonth(), 1);
+    var monthEnd = new Date(todat.getFullYear(), todat.getMonth() + 1, 1);
+    var monthLength = (monthEnd - monthStart) / (1000 * 60 * 60 * 24)
+    var chtdate = todate / monthLength * 100;
+    var chtmonth = (todat.getMonth() + 1) / 12 * 100;
+    $('.tday').text(todate).data('percent', chtdate);
+    $('.tmonth').text(datMonth).data('percent', chtmonth);
+    $('.tyear').text(datYear).data('percent', datYear);
+    $('.chart').easyPieChart({
+        scaleColor: '#fff',
+        trackColor: '#C3E0E6',
+        barColor: '#337ab7',
+		lineCap:'square',
+        animate: 2000
+    });
+
    $(".navbar-nav li,#scroll_up").click(function(e) {
 		e.preventDefault();
 		 $('html, body').animate({
@@ -7,10 +40,12 @@ $(function() {
 	 });
 $("img[src*='jet']").click(function() {
   $("#jet").addClass("jet");
-  //setTimeout(function(){
-  //$("#jet").removeClass("jet");
-  //},2000);
+  setTimeout(function(){
+  $("#jet").removeClass("jet");
+  },1000);
 });
+
+
 	 $('.txteffect').textillate({in: {    effect: 'zoomInDown' } });
 	
     $("#top-navigation a").on('click', function(event) {
