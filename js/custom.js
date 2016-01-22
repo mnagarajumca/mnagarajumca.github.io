@@ -1,5 +1,5 @@
 $(function() {
-	    var todat = new Date();
+	var todat = new Date();
     var todate = todat.getDate();
     var month = new Array();
     month[0] = "January";
