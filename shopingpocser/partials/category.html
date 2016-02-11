@@ -1,0 +1,18 @@
+
+<div class="row">
+<div class="col-md-4">
+<h1 class="text-center text-primary">category {{cid | uppercase}}</h1>
+</div>
+<div class="col-md-8">
+<ul class="row list-unstyled">
+<li class="col-md-3 text-center" ng-repeat="items in resdata">
+<a href="#/cart/{{cid}}-{{items.id}}" alt="{{items.id}}">
+<img ng-src="{{items.imageUrl}}" alt="{{cid}}" class="img-thumbnail" >
+</a>
+<p class="pull-left">{{items.price | currency}}</p>
+<p class="pull-right">{{items.brand}}</p>
+<div class="clearfix"></div>
+</li>
+</ul>
+</div>
+</div>

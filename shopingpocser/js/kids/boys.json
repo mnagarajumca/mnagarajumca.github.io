@@ -1,0 +1,38 @@
+[
+    {
+        "id": 100,
+        "price": 2500,
+        "brand": "LP",
+        "imageUrl": "images/kids/shirts/shirt1.png"
+    },
+    {
+        "id": 12,
+        "price": 2000,
+        "brand": "LP",
+        "imageUrl": "images/kids/shirts/shirt2.png"
+    },
+    {
+        "id": 32,
+        "price": 200,
+        "brand": "LP",
+        "imageUrl": "images/kids/shirts/shirt3.png"
+    },
+    {
+        "id": 24,
+        "price": 250,
+        "brand": "PE",
+        "imageUrl": "images/kids/shirts/shirt4.png"
+    },
+    {
+        "id": 55,
+        "price": 500,
+        "brand": "LP",
+        "imageUrl": "images/kids/shirts/shirt5.png"
+    },
+    {
+        "id": 66,
+        "price": 200,
+        "brand": "PE",
+        "imageUrl": "images/kids/shirts/shirt6.png"
+    }
+]

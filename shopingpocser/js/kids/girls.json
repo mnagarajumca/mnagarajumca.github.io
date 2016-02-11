@@ -1,0 +1,74 @@
+[
+    {
+        "id": 123,
+        "price": 3000,
+        "brand": "LP",
+        "imageUrl": "images/kids/tshirts/tshirt1.png"
+    },
+    {
+        "id": 1,
+        "price": 2500,
+        "brand": "LP",
+        "imageUrl": "images/kids/shirts/shirt1.png"
+    },
+    {
+        "id": 2,
+        "price": 2000,
+        "brand": "LP",
+        "imageUrl": "images/kids/shirts/shirt2.png"
+    },
+    {
+        "id": 3,
+        "price": 200,
+        "brand": "LP",
+        "imageUrl": "images/kids/shirts/shirt3.png"
+    },
+    {
+        "id": 250,
+        "price": 150,
+        "brand": "VH",
+        "imageUrl": "images/kids/tshirts/tshirt2.png"
+    },
+    {
+        "id": 333,
+        "price": 450,
+        "brand": "PUMA",
+        "imageUrl": "images/kids/tshirts/tshirt3.png"
+    },
+    {
+        "id": 144,
+        "price": 120,
+        "brand": "LP",
+        "imageUrl": "images/kids/tshirts/tshirt4.png"
+    },
+    {
+        "id": 4,
+        "price": 250,
+        "brand": "PE",
+        "imageUrl": "images/kids/shirts/shirt4.png"
+    },
+    {
+        "id": 5,
+        "price": 500,
+        "brand": "LP",
+        "imageUrl": "images/kids/shirts/shirt5.png"
+    },
+    {
+        "id": 6,
+        "price": 200,
+        "brand": "PE",
+        "imageUrl": "images/kids/shirts/shirt6.png"
+    },
+    {
+        "id": 500,
+        "price": 750,
+        "brand": "PE",
+        "imageUrl": "images/kids/tshirts/tshirt5.png"
+    },
+    {
+        "id": 66,
+        "price": 350,
+        "brand": "VH",
+        "imageUrl": "images/kids/tshirts/tshirt6.png"
+    }
+]

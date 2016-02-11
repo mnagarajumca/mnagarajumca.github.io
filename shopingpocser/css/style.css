@@ -1,0 +1,42 @@
+.category ul li img,.subcategory ul li img{
+	height: 170px;
+	width: 170px;
+}
+.cart-details .panel-body {
+	padding: 0;
+}
+.subcategory input[type="text"]{
+	border: none;
+    outline: none;
+    width: 100%;}
+/* Mega menu */
+.aash .nav,
+.aash .collapse,
+.aash .dropup,
+.aash .dropdown {
+  position: static;
+}
+.aash .container {
+  position: relative;
+}
+.aash .dropdown-menu {
+  left: auto;
+}
+.aash .nav.navbar-right .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.aash .aash-content {
+  padding: 10px;
+}
+.aash .dropdown.aash-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+/* Mega Menu */
+/* Right Settings*/
+#right_set {
+  position: fixed;
+  top: 15%;
+  right: 10px;
+}

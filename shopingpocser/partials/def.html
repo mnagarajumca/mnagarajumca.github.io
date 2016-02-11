@@ -1,0 +1,138 @@
+<div class="row">
+<div class="col-md-3">
+<h1 class="text-primary" >My Poc </h1>
+<section class="Caetgory-group">
+<h4 class="text-primary">
+<a class="btn btn-link" role="button" data-toggle="collapse" href="#collapseCategory" aria-expanded="false" aria-controls="collapseCategory">
+  Shop By Category
+  
+</a><span class="glyphicon glyphicon-chevron-down pull-right"></span></h4>
+<div class="collapse in" id="collapseCategory">
+  <div >
+    <ul class="list-group"> 
+    <li class="list-group-item">Men</li>
+    <li class="list-group-item">Women</li>
+    <li class="list-group-item">Kids</li>
+    </ul>
+  </div>
+</div>
+</section>
+<section class="brand-group">
+<h4 class="text-primary">
+<a class="btn btn-link" role="button" data-toggle="collapse" href="#collapseBrand" aria-expanded="false" aria-controls="collapseBrand">
+  Shop By Brands
+  
+</a><span class="glyphicon glyphicon-chevron-down pull-right"></span></h4>
+<div class="collapse in" id="collapseBrand">
+  <div >
+    <ul class="list-group"> 
+    <li class="list-group-item">PE</li>
+    <li class="list-group-item">VH</li>
+    <li class="list-group-item">PE</li>
+    <li class="list-group-item">VH</li>
+    </ul>
+  </div>
+</div>
+</section>
+<section class="price-range">
+<h4 class="text-primary">
+<a class="btn btn-link" role="button" data-toggle="collapse" href="#collapsePrice" aria-expanded="false" aria-controls="collapsePrice">
+  Shop By Price
+  
+</a><span class="glyphicon glyphicon-chevron-down pull-right"></span></h4>
+<div class="collapse in" id="collapsePrice">
+  <div>
+    <ul class="list-group"> 
+    <li class="list-group-item">PE</li>
+    <li class="list-group-item">VH</li>
+    <li class="list-group-item">PE</li>
+    <li class="list-group-item">VH</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+</div>
+<div class="col-md-9">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/men/shirts/shirt1.png" alt="shirt">
+      <div class="carousel-caption">
+        <h3>Men</h3>
+    <p>New Arrivals</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/men/shirts/shirt2.png" alt="shirt">
+      <div class="carousel-caption">
+       <h3>Women</h3>
+    <p>New Arrivals</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/men/shirts/shirt2.png" alt="shirt">
+      <div class="carousel-caption">
+       <h3>Kids</h3>
+    <p>New Arrivals</p>
+      </div>
+    </div>
+  </div> 
+</div>
+<!-- New Arrivals -->
+<div class="row new-arrivals">
+<div class="col-md-4">
+<img src="images/men/shirts/shirt2.png" alt="..." class="img-thumbnail">
+<div class="img-heading">
+<a href="" title="new arriavals">New Arrivals</a>
+</div>
+</div>
+<div class="col-md-4">
+<img src="images/men/shirts/shirt2.png" alt="..." class="img-thumbnail">
+<div class="img-heading">
+<a href="" title="new arriavals">New Arrivals</a>
+</div>
+</div>
+<div class="col-md-4">
+<img src="images/men/shirts/shirt2.png" alt="..." class="img-thumbnail">
+<div class="img-heading">
+<a href="" title="new arriavals">New Arrivals</a>
+</div>
+</div>
+</div>
+<!-- User Ratings -->
+<div class="row user-ratings">
+<div class="col-md-4">
+<img src="images/men/shirts/shirt2.png" alt="..." class="img-circle">
+</div>
+<div class="col-md-8 user-description">
+<h4 class="text-primary">Awesome</h4>
+<p class="text-info">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+<script>
+$(function($){
+	$('.carousel').carousel({
+  interval: 1000
+})
+	$('.btn-link').click(function(e){
+		e.preventDefault();
+		});
+});
+</script>
+

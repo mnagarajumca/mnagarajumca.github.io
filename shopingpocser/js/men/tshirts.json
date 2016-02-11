@@ -1,0 +1,38 @@
+[
+        {
+            "id": 123,
+            "price": 2500,
+            "brand": "LP",
+            "imageUrl": "images/men/tshirts/tshirt1.png"
+        },
+        {
+            "id": 250,
+            "price": 150,
+            "brand": "VH",
+            "imageUrl": "images/men/tshirts/tshirt2.png"
+        },
+        {
+            "id": 333,
+            "price": 450,
+            "brand": "PUMA",
+            "imageUrl": "images/men/tshirts/tshirt3.png"
+        },
+        {
+            "id": 144,
+            "price": 120,
+            "brand": "LP",
+            "imageUrl": "images/men/tshirts/tshirt4.png"
+        },
+        {
+            "id": 500,
+            "price": 750,
+            "brand": "PE",
+            "imageUrl": "images/men/tshirts/tshirt5.png"
+        },
+        {
+            "id": 66,
+            "price": 350,
+            "brand": "VH",
+            "imageUrl": "images/men/tshirts/tshirt6.png"
+        }
+    ]

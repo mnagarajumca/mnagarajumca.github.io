@@ -1,0 +1,50 @@
+<div class="row">
+<div class="col-md-4">
+<h1 class="text-center text-primary">Sub category {{sid}}</h1>
+
+<section class="brand-group">
+<h4 class="text-primary">
+<a class="btn btn-link" role="button" data-toggle="collapse" href="#collapseBrand" aria-expanded="false" aria-controls="collapseBrand">
+  Shop By Brands
+  
+</a><span class="glyphicon glyphicon-chevron-down pull-right"></span></h4>
+<div class="collapse in" id="collapseBrand">
+  <div >
+  
+    <ul class="list-group"> 
+    <li class="list-group-item"> <input type="text" data-ng-model="query" placeholder="Search Brand"></li>
+   
+    </ul>
+  </div>
+</div>
+</section>
+<section class="price-range">
+<h4 class="text-primary">
+<a class="btn btn-link" role="button" data-toggle="collapse" href="#collapsePrice" aria-expanded="false" aria-controls="collapsePrice">
+  Shop By Price
+  
+</a><span class="glyphicon glyphicon-chevron-down pull-right"></span></h4>
+<div class="collapse in" id="collapsePrice">
+  <div>
+    <ul class="list-group"> 
+    
+  
+    </ul>
+  </div>
+</div>
+</section>
+</div>
+<div class="col-md-8">
+<ul class="row list-unstyled">
+ <li class="col-md-3" data-ng-repeat="items in resdata | filter:{brand: query} ">
+<a href="#/cart/{{sid}}/{{items.id}}" title="{{items.id}}">
+<img ng-src="{{items.imageUrl}}" alt="{{sid}}" class="img-thumbnail">
+</a>
+<p class="pull-left">{{items.price | currency}}</p>
+<p class="pull-right">{{items.brand}}</p>
+<div class="clearfix"></div>
+</li>
+</ul>
+</div>
+</div>
+
