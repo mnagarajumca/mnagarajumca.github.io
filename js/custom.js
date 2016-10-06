@@ -118,12 +118,12 @@ function initialize() {
     }
     var map = new google.maps.Map(mapCanvas, mapOptions)
     var infowindow = new google.maps.InfoWindow({
-        content: "<p>M.Naga Raju,</p><p> Interactive Developer L2, Sapient</p><p>Mobile : 08951483816</p><p>Email : mnagarajumca@gmail.com</p>"
+        content: "<p>M.Naga Raju,</p><p>Senior Engineer at Ericsson</p><p>Mobile : 08951483816</p><p>Email : mnagarajumca@gmail.com</p>"
     });
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        title: 'M.Naga Raju, Interactive Developer, Sapient'
+        title: 'M.Naga Raju, Senior Engineer at Ericsson'
     });
     infowindow.open(map, marker);
 }
